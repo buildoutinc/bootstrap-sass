@@ -68,7 +68,7 @@ module Bootstrap3
     def register_compass_extension
       ::Compass::Frameworks.register(
           'bootstrap',
-          :version               => Bootstrap::VERSION,
+          :version               => Bootstrap3::VERSION,
           :path                  => gem_path,
           :stylesheets_directory => stylesheets_path,
           :templates_directory   => File.join(gem_path, 'templates')
